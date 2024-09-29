@@ -20,7 +20,7 @@ The goal is to have the lowest score by replacing cards from the deck or discard
 
 4. **Discard Pile**: One card is drawn from the deck and placed face-up to start the discard pile.
 
-5. **Start Game**: A random player is selected to start, alternating turns between drawing from the deck or discard pile and replacing a card.
+5. **Start Game**: A random player starts, and players take turns drawing and replacing cards.
 
 ---
 
@@ -36,7 +36,7 @@ The goal is to have the lowest score by replacing cards from the deck or discard
 
 ## Class Overview
 
-- **Game Class**: Manages the overall flow of the game, turn-taking, and scoring.
-- **Card Class**: Represents a card with its suit and value.
-- **Deck Class**: Creates and shuffles the deck.
-- **Player Class**: Manages a player's hand and actions during their turn.
+- **Game Class** (in `game.js`): Manages the overall flow of the game, turn-taking, and scoring.
+- **Deck Class** (in `deck.js`): Creates and shuffles the deck.
+- **Player Class** (in `player.js`): Manages a player's hand and actions during their turn.
+- **GameHelper Class/Functions** (in `gameHelper.js`): Provides helper functions such as score calculation and other utilities for the game.
