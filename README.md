@@ -39,4 +39,4 @@ The goal is to have the lowest score by replacing cards from the deck or discard
 - **Game Class** (in `game.js`): Manages the overall flow of the game, turn-taking, and scoring.
 - **Deck Class** (in `deck.js`): Creates and shuffles the deck.
 - **Player Class** (in `player.js`): Manages a player's hand and actions during their turn.
-- **GameHelper Class/Functions** (in `gameHelper.js`): Provides helper functions such as score calculation and other utilities for the game.
+- **GameHelper Class** (in `gameHelper.js`): Provides helper functions such as score calculation and other utilities for the game.
