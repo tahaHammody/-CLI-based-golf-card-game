@@ -1,5 +1,5 @@
-# -CLI-based-golf-card-game
-GolfCard Game
+# CLI-based-golf-card-game
+**GolfCard Game
 Game Overview
 A two-player card game where each player is dealt 4 cards face-down in a 2x2 grid. The goal is to have the lowest score by replacing cards from the deck or discard pile. Special rules apply to certain cards and pairs.
 
@@ -18,3 +18,4 @@ Game Class: Manages the flow of the game, turn-taking, and scoring.
 Card Class: Represents a single card with suit and value.
 Deck Class: Creates and shuffles the deck.
 Player Class: Manages a player's hand and actions during their turn.
+**
